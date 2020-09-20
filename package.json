@@ -1,0 +1,31 @@
+{
+  "name": "api-randomizer",
+  "version": "1.0.0",
+  "description": "An app in vanilla js to return a random api from a api randomizer api.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miriamhaenle/api-randomizer.git"
+  },
+  "keywords": [
+    "api-randomizer",
+    "js"
+  ],
+  "author": "Miriam Haenle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miriamhaenle/api-randomizer/issues"
+  },
+  "homepage": "https://github.com/miriamhaenle/api-randomizer#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.10.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "parcel-bundler": "^1.12.4"
+  }
+}

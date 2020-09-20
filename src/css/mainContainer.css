@@ -1,0 +1,7 @@
+.mainContainer {
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  height: 80%;
+}

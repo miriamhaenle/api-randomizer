@@ -1,0 +1,6 @@
+.teaser {
+  grid-row: 1;
+  grid-column: 2 / span 4;
+  justify-self: center;
+  align-self: center;
+}

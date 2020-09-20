@@ -1,0 +1,38 @@
+.randomizer {
+  align-self: center;
+  border: 5px dotted #ff8e53;
+  border-radius: 10px;
+  grid-column: 2 / span 4;
+  grid-row: 2 / span 3;
+  justify-self: center;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.randomizer:hover {
+  background: #fe6b8b;
+  animation: glowing 1s infinite;
+}
+
+.randomizer h2 {
+  margin: 0;
+}
+
+.randomizer a {
+  color: #fff;
+  padding: 5px;
+  background: #ff8e53;
+}
+
+@keyframes glowing {
+  0% {
+    background: linear-gradient(41deg, #8b008b 2%, #fe6b8b 75%, #ff8e53 90%);
+  }
+  50% {
+    background: linear-gradient(70deg, #8b008b 2%, #fe6b8b 75%, #ff8e53 90%);
+  }
+  100% {
+    background: linear-gradient(90deg, #8b008b 2%, #fe6b8b 75%, #ff8e53 90%);
+  }
+}
